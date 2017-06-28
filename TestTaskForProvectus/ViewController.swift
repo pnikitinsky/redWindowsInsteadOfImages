@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  HappySwiftInstaClient
+//  TestTaskForProvectus
 //
-//  Created by pavel on 11/3/16.
-//  Copyright © 2016 pavel. All rights reserved.
+//  Created by pavel on 6/28/17.
+//  Copyright © 2017 pavel. All rights reserved.
 //
 
 /// Please add all frameworks as embeded binaries in the General menu

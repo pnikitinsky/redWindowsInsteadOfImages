@@ -1,11 +1,10 @@
 //
-//  File.swift
-//  HappySwiftInstaClient
+//  Media.swift
+//  TestTaskForProvectus
 //
-//  Created by pavel on 11/13/16.
-//  Copyright © 2016 pavel. All rights reserved.
+//  Created by pavel on 6/28/17.
+//  Copyright © 2017 pavel. All rights reserved.
 //
-
 import Foundation
 
 /// this struct is meant to hold user's info

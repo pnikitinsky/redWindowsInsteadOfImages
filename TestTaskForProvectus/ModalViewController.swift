@@ -1,9 +1,9 @@
 //
 //  ModalViewController.swift
-//  HappySwiftInstaClient
+//  TestTaskForProvectus
 //
-//  Created by pavel on 11/6/16.
-//  Copyright © 2016 pavel. All rights reserved.
+//  Created by pavel on 6/28/17.
+//  Copyright © 2017 pavel. All rights reserved.
 //
 
 import UIKit
@@ -33,10 +33,10 @@ class ModalViewController: UIViewController {
         let day = calendar.component(.day, from: date as Date)
         let hour = calendar.component(.hour, from: date as Date)
         let minutes = calendar.component(.minute, from: date as Date)
-        self.SomeImg.kf.setImage(with: recipeInfo!.someImg! as URL )
+        self.SomeImg.backgroundColor = .red
         self.DateOfCreation.text = "\(year) \(month)/\(day) \(hour):\(minutes)"
         self.OwnerData.text = recipeInfo?.ownerData
-        self.userPhoto.kf.setImage(with: recipeInfo!.userPhoto! as URL )
+        self.userPhoto.backgroundColor = .red
     }
 
     
