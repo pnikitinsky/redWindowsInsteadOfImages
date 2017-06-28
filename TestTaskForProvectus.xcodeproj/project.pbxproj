@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E96025A81F03A3B900BCCAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96025A71F03A3B900BCCAAB /* AppDelegate.swift */; };
-		E96025AA1F03A3B900BCCAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96025A91F03A3B900BCCAAB /* ViewController.swift */; };
-		E96025AD1F03A3B900BCCAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96025AB1F03A3B900BCCAAB /* Main.storyboard */; };
-		E96025B01F03A3B900BCCAAB /* TestTaskForProvectus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E96025AE1F03A3B900BCCAAB /* TestTaskForProvectus.xcdatamodeld */; };
-		E96025B21F03A3B900BCCAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96025B11F03A3B900BCCAAB /* Assets.xcassets */; };
-		E96025B51F03A3B900BCCAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96025B31F03A3B900BCCAAB /* LaunchScreen.storyboard */; };
 		E96025C01F03A3B900BCCAAB /* TestTaskForProvectusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96025BF1F03A3B900BCCAAB /* TestTaskForProvectusTests.swift */; };
+		E96025D51F03A51F00BCCAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96025CF1F03A51E00BCCAAB /* LaunchScreen.storyboard */; };
+		E96025D61F03A51F00BCCAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E96025D11F03A51F00BCCAAB /* Main.storyboard */; };
+		E96025D71F03A51F00BCCAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96025D31F03A51F00BCCAAB /* AppDelegate.swift */; };
+		E96025D81F03A51F00BCCAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E96025D41F03A51F00BCCAAB /* Assets.xcassets */; };
+		E96025E01F03A71E00BCCAAB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96025DA1F03A70F00BCCAAB /* Alamofire.framework */; };
+		E96025E11F03A71E00BCCAAB /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E96025DA1F03A70F00BCCAAB /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E96025E21F03A71E00BCCAAB /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96025DB1F03A70F00BCCAAB /* Kingfisher.framework */; };
+		E96025E31F03A71E00BCCAAB /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E96025DB1F03A70F00BCCAAB /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E96025E41F03A71E00BCCAAB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E96025DC1F03A70F00BCCAAB /* SwiftyJSON.framework */; };
+		E96025E51F03A71E00BCCAAB /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E96025DC1F03A70F00BCCAAB /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E96025E81F03A7B000BCCAAB /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96025E71F03A7B000BCCAAB /* Media.swift */; };
+		E96025EB1F03A7B900BCCAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96025E91F03A7B900BCCAAB /* ViewController.swift */; };
+		E96025EC1F03A7B900BCCAAB /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96025EA1F03A7B900BCCAAB /* ModalViewController.swift */; };
+		E96025EE1F03A7C300BCCAAB /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96025ED1F03A7C300BCCAAB /* ImageCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,18 +34,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E96025E61F03A71E00BCCAAB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E96025E31F03A71E00BCCAAB /* Kingfisher.framework in Embed Frameworks */,
+				E96025E11F03A71E00BCCAAB /* Alamofire.framework in Embed Frameworks */,
+				E96025E51F03A71E00BCCAAB /* SwiftyJSON.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E96025A41F03A3B900BCCAAB /* TestTaskForProvectus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskForProvectus.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E96025A71F03A3B900BCCAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E96025A91F03A3B900BCCAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E96025AC1F03A3B900BCCAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E96025AF1F03A3B900BCCAAB /* TestTaskForProvectus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestTaskForProvectus.xcdatamodel; sourceTree = "<group>"; };
-		E96025B11F03A3B900BCCAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E96025B41F03A3B900BCCAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E96025B61F03A3B900BCCAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E96025BB1F03A3B900BCCAAB /* TestTaskForProvectusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaskForProvectusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E96025BF1F03A3B900BCCAAB /* TestTaskForProvectusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTaskForProvectusTests.swift; sourceTree = "<group>"; };
 		E96025C11F03A3B900BCCAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E96025D01F03A51E00BCCAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E96025D21F03A51F00BCCAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E96025D31F03A51F00BCCAAB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E96025D41F03A51F00BCCAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E96025DA1F03A70F00BCCAAB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		E96025DB1F03A70F00BCCAAB /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		E96025DC1F03A70F00BCCAAB /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		E96025E71F03A7B000BCCAAB /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		E96025E91F03A7B900BCCAAB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E96025EA1F03A7B900BCCAAB /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		E96025ED1F03A7C300BCCAAB /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E96025E21F03A71E00BCCAAB /* Kingfisher.framework in Frameworks */,
+				E96025E01F03A71E00BCCAAB /* Alamofire.framework in Frameworks */,
+				E96025E41F03A71E00BCCAAB /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +96,7 @@
 				E96025A61F03A3B900BCCAAB /* TestTaskForProvectus */,
 				E96025BE1F03A3B900BCCAAB /* TestTaskForProvectusTests */,
 				E96025A51F03A3B900BCCAAB /* Products */,
+				E96025D91F03A70E00BCCAAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +112,11 @@
 		E96025A61F03A3B900BCCAAB /* TestTaskForProvectus */ = {
 			isa = PBXGroup;
 			children = (
-				E96025A71F03A3B900BCCAAB /* AppDelegate.swift */,
-				E96025A91F03A3B900BCCAAB /* ViewController.swift */,
-				E96025AB1F03A3B900BCCAAB /* Main.storyboard */,
-				E96025B11F03A3B900BCCAAB /* Assets.xcassets */,
-				E96025B31F03A3B900BCCAAB /* LaunchScreen.storyboard */,
+				E96025CD1F03A41700BCCAAB /* Utilities */,
+				E96025CC1F03A40000BCCAAB /* Models */,
+				E96025CB1F03A3F700BCCAAB /* Views */,
+				E96025CA1F03A3E100BCCAAB /* Controllers */,
 				E96025B61F03A3B900BCCAAB /* Info.plist */,
-				E96025AE1F03A3B900BCCAAB /* TestTaskForProvectus.xcdatamodeld */,
 			);
 			path = TestTaskForProvectus;
 			sourceTree = "<group>";
@@ -99,6 +130,52 @@
 			path = TestTaskForProvectusTests;
 			sourceTree = "<group>";
 		};
+		E96025CA1F03A3E100BCCAAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E96025E91F03A7B900BCCAAB /* ViewController.swift */,
+				E96025EA1F03A7B900BCCAAB /* ModalViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E96025CB1F03A3F700BCCAAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E96025ED1F03A7C300BCCAAB /* ImageCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E96025CC1F03A40000BCCAAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E96025E71F03A7B000BCCAAB /* Media.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E96025CD1F03A41700BCCAAB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E96025CF1F03A51E00BCCAAB /* LaunchScreen.storyboard */,
+				E96025D11F03A51F00BCCAAB /* Main.storyboard */,
+				E96025D31F03A51F00BCCAAB /* AppDelegate.swift */,
+				E96025D41F03A51F00BCCAAB /* Assets.xcassets */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		E96025D91F03A70E00BCCAAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E96025DA1F03A70F00BCCAAB /* Alamofire.framework */,
+				E96025DB1F03A70F00BCCAAB /* Kingfisher.framework */,
+				E96025DC1F03A70F00BCCAAB /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,6 +186,7 @@
 				E96025A01F03A3B900BCCAAB /* Sources */,
 				E96025A11F03A3B900BCCAAB /* Frameworks */,
 				E96025A21F03A3B900BCCAAB /* Resources */,
+				E96025E61F03A71E00BCCAAB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,6 +228,7 @@
 					E96025A31F03A3B900BCCAAB = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 4XSVH274M2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					E96025BA1F03A3B900BCCAAB = {
@@ -184,9 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E96025B51F03A3B900BCCAAB /* LaunchScreen.storyboard in Resources */,
-				E96025B21F03A3B900BCCAAB /* Assets.xcassets in Resources */,
-				E96025AD1F03A3B900BCCAAB /* Main.storyboard in Resources */,
+				E96025D51F03A51F00BCCAAB /* LaunchScreen.storyboard in Resources */,
+				E96025D81F03A51F00BCCAAB /* Assets.xcassets in Resources */,
+				E96025D61F03A51F00BCCAAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E96025AA1F03A3B900BCCAAB /* ViewController.swift in Sources */,
-				E96025B01F03A3B900BCCAAB /* TestTaskForProvectus.xcdatamodeld in Sources */,
-				E96025A81F03A3B900BCCAAB /* AppDelegate.swift in Sources */,
+				E96025EE1F03A7C300BCCAAB /* ImageCollectionViewCell.swift in Sources */,
+				E96025D71F03A51F00BCCAAB /* AppDelegate.swift in Sources */,
+				E96025EC1F03A7B900BCCAAB /* ModalViewController.swift in Sources */,
+				E96025EB1F03A7B900BCCAAB /* ViewController.swift in Sources */,
+				E96025E81F03A7B000BCCAAB /* Media.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,20 +310,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E96025AB1F03A3B900BCCAAB /* Main.storyboard */ = {
+		E96025CF1F03A51E00BCCAAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E96025AC1F03A3B900BCCAAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E96025B31F03A3B900BCCAAB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E96025B41F03A3B900BCCAAB /* Base */,
+				E96025D01F03A51E00BCCAAB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E96025D11F03A51F00BCCAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E96025D21F03A51F00BCCAAB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,11 +428,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4XSVH274M2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TestTaskForProvectus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paveln.TestTaskForProvectus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -360,11 +448,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 4XSVH274M2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TestTaskForProvectus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paveln.TestTaskForProvectus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -418,6 +512,7 @@
 				E96025C61F03A3B900BCCAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E96025C71F03A3B900BCCAAB /* Build configuration list for PBXNativeTarget "TestTaskForProvectusTests" */ = {
 			isa = XCConfigurationList;
@@ -426,21 +521,9 @@
 				E96025C91F03A3B900BCCAAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E96025AE1F03A3B900BCCAAB /* TestTaskForProvectus.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E96025AF1F03A3B900BCCAAB /* TestTaskForProvectus.xcdatamodel */,
-			);
-			currentVersion = E96025AF1F03A3B900BCCAAB /* TestTaskForProvectus.xcdatamodel */;
-			path = TestTaskForProvectus.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E960259C1F03A3B900BCCAAB /* Project object */;
 }
