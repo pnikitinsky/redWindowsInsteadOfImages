@@ -11,7 +11,6 @@
 import UIKit
 import SwiftyJSON
 import Alamofire
-import Kingfisher
 import Foundation
 class ViewController: UICollectionViewController {
     /// token to my Insta account
